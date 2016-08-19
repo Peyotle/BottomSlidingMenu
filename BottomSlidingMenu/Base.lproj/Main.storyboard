@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHb-Sv-af5">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHb-Sv-af5" customClass="DraggableMenuContainerView" customModule="BottomSlidingMenu" customModuleProvider="target">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KHb-Sv-af5" secondAttribute="height" multiplier="375:667" id="wuG-mk-VYV"/>
                                 </constraints>
@@ -48,6 +48,10 @@
         <scene sceneID="1Gb-C1-QoB">
             <objects>
                 <viewController id="dDr-bv-Oih" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E8e-Ib-YK3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yse-4a-JKx"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vO4-n8-6TU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
