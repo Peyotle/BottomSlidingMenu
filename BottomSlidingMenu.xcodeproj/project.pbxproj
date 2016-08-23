@@ -14,6 +14,8 @@
 		7C15AE461D650C0300979E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C15AE441D650C0300979E66 /* LaunchScreen.storyboard */; };
 		7C15AE511D650C0300979E66 /* BottomSlidingMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C15AE501D650C0300979E66 /* BottomSlidingMenuTests.swift */; };
 		7C15AE5C1D650C0300979E66 /* BottomSlidingMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C15AE5B1D650C0300979E66 /* BottomSlidingMenuUITests.swift */; };
+		7C238C941D6BB75D001EBA3D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C238C931D6BB75D001EBA3D /* TestViewController.swift */; };
+		7C238C961D6BCECE001EBA3D /* DraggableMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C238C951D6BCECE001EBA3D /* DraggableMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7C15AE571D650C0300979E66 /* BottomSlidingMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSlidingMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C15AE5B1D650C0300979E66 /* BottomSlidingMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSlidingMenuUITests.swift; sourceTree = "<group>"; };
 		7C15AE5D1D650C0300979E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C238C931D6BB75D001EBA3D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		7C238C951D6BCECE001EBA3D /* DraggableMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7C15AE421D650C0200979E66 /* Assets.xcassets */,
 				7C15AE441D650C0300979E66 /* LaunchScreen.storyboard */,
 				7C15AE471D650C0300979E66 /* Info.plist */,
+				7C238C931D6BB75D001EBA3D /* TestViewController.swift */,
+				7C238C951D6BCECE001EBA3D /* DraggableMenuController.swift */,
 			);
 			path = BottomSlidingMenu;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C15AE3E1D650C0200979E66 /* ViewController.swift in Sources */,
+				7C238C941D6BB75D001EBA3D /* TestViewController.swift in Sources */,
+				7C238C961D6BCECE001EBA3D /* DraggableMenuController.swift in Sources */,
 				7C15AE3C1D650C0200979E66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				7C15AE621D650C0300979E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C15AE631D650C0300979E66 /* Build configuration list for PBXNativeTarget "BottomSlidingMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				7C15AE651D650C0300979E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C15AE661D650C0300979E66 /* Build configuration list for PBXNativeTarget "BottomSlidingMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				7C15AE681D650C0300979E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
